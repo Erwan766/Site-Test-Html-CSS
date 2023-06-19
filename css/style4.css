@@ -1,0 +1,141 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+img{
+    width: 110px;
+    height: 110px;
+}
+
+#titre{
+    font-size: xx-large;
+    margin-right: 75px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#titre h1{
+    animation: flash infinite 5s;
+    animation-timing-function: linear;
+    color:aliceblue ;
+}
+    
+@keyframes flash {
+    
+    0%{
+        color: white;
+    }
+    
+    20%{
+        color: cyan;
+    }
+    
+    40%{
+        color: blue;
+    }
+    
+    50%{
+        color: purple;
+    }
+    70%{
+        color: red;
+    }
+    
+    90%{
+        color: orangered;
+    }
+    
+    100%{
+        color: orange;
+    }    
+}
+
+.nav{
+    background-color: rgb(75, 75, 75);
+    height: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav li{
+        float: left;
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        font-size: 25px;
+        background-color: #181818;
+        height: 80px; 
+}
+
+nav li:hover{
+    background-color: rgb(39, 39, 39); 
+}
+  
+
+img{
+    width: 125px;
+}
+
+p{
+    border: solid 2px grey;
+}
+
+
+footer ul{
+    display:flex ;
+    flex-direction: column;
+}
+
+footer{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 142px;  
+}
+
+footer img{
+    position: relative;
+    left: 350px;
+}
+
+#footerlinks{
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 115%;
+}
+
+fieldset{
+    border: solid 2px black;
+    width: 360px;
+    padding: 20px;
+}
+
+
+
+
+
+

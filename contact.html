@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="css/reset.css">
+    <link rel ="stylesheet" type="text/css" href="css/style4.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+        <head>
+            <div id="logo"><img src="image/logo.png.png" alt="logo"></div>
+            <div id="titre"><h1>Titre du Site</h1></div>
+        </head>
+    </div>
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="acceuil.html">Acceuil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+        <br>
+        <br>
+
+
+        <center>
+            <form method="post">
+            <fieldset>
+                <form method="post">
+
+                <legend>Contactez nous</legend>
+                <input type="radio" id="mr" name="genre" value="mr">
+                <label for="mr">.Mr</label>
+
+                <input type="radio" id="Mme" name="genre" value="Mme">
+                <label for="Mme">.Mme</label>
+
+                <input type="radio" id="autre" name="genre" value="autre">
+                <label for="autre">Autre</label><br><br>
+
+
+
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom"><br><br>
+
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" id="prenom"><br><br>
+
+                <label for="mail">Mail:</label>
+                <input type="text" name="mail" id="mail"><br><br>
+
+                <label for="sujet">La raison pour laquelle vous nous contactez</label><br><br>
+                <select name="sujet" id="sujet">
+                    <option value="">--Choisissez--</option>
+                    <option value="Sav">Service après-vente</option>
+                    <option value="conso">Service consomateur</option>
+                    <option value="com">Communication</option>
+                </select>
+
+                <br><br>
+
+                <label for="msg">Ecrivez un message</label><br> <br>
+                    <textarea id="story" name="story"
+                    rows="5" cols="33"> </textarea> 
+
+                    <br><br><br>
+
+                    <input type="button" value="Envoyer">
+            </fieldset><br><br>
+        </form></center>
+
+        
+    
+    
+        <footer>
+            <ul>
+                <br><br>
+                <li><a href="acceuil.html">Acceuil</a></li><br>
+                <li><a href="presentation.html">Présentation</a></li><br>
+                <li><a href="boutique.html">Boutique</a></li><br>
+                <li><a href="contact.html">Contact</a></li><br>
+            </ul>
+
+            <a href="img"><img src="image/logo.png.png" alt="logo"></a><br><br>
+
+            <div id="footerlinks"></div>
+                <ul>
+                    <li><a href="#mentions">Mentions Légales</a></li><br>
+                    <li><a href="#politique">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</body>
+</html>
